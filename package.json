@@ -1,0 +1,17 @@
+{
+  "name": "legal-rag",
+  "version": "1.0.0",
+  "description": "Browser 3D third-person tennis shooter (Kadosh)",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve . -p 3000",
+    "dev": "live-server . --port=3000 --open=/ --watch=src,index.html,public",
+    "generate-audio": "node scripts/generate-bgm.js && node scripts/generate-djokovic.js",
+    "generate-bgm": "node scripts/generate-bgm.js",
+    "generate-djokovic": "node scripts/generate-djokovic.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "say": "^0.16.0"
+  }
+}
