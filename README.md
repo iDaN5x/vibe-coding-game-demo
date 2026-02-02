@@ -2,6 +2,8 @@
 
 A simple browser-based 3D third-person shooter. You and up to 3 "Kadosh" enemies fight with tennis rackets and balls. Built with Three.js (WebGL).
 
+**[▶ Play the game](https://iDaN5x.github.io/vibe-coding-game-demo/)**
+
 ## Controls
 
 - **WASD** – Move
