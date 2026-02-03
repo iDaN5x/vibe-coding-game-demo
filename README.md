@@ -33,7 +33,7 @@ Or use any static server, e.g.:
 
 ```bash
 npx serve . -p 3000
-# or
+# or 
 python3 -m http.server 3000
 ```
 
